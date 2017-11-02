@@ -1,4 +1,3 @@
-<!-- Reset.css -->
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -18,6 +17,36 @@
   		<li>Contact</li>
   	</ul>
   </header>
-  <body></body>
-  <footer></footer>
+  <body>
+    <div class="container">
+      <form action="/action_page.php">
+
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="John Smith">
+
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="socialContainer">
+      <h2>Connect with Me</h2>
+      <ul>
+        <li><a href="https://github.com/mateovargas" target="_blank">
+          <img src="assets/images/github.png" alt="Github"></img>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/mateo-vargas-03896189/" target="_blank">
+          <img src="assets/images/linkedin.png" alt="LinkedIn"></img>
+        </a></li>
+        <li><a href="https://stackoverflow.com/users/8803156/matvargas" target="_blank">
+          <img src="assets/images/stackoverflow.png" alt="Stack Overflow"></img>
+        </a></li>
+      </ul>
+    </div>
+  </body>
+  <footer>Copyright 2017 Mateo Vargas</footer>
 </html>
