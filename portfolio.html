@@ -5,31 +5,49 @@
 
     <meta charset="UTF-8">
     <title>Mateo Vargas</title>
-    
+    <link rel="stylesheet" href="assets/css/reset.css"></link>
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+
   </head>
   <header>
-  	<div class="headerContainer">
-  		Mateo Vargas
-  	</div>
-  	<ul>
-  		<li>About</li>
-  		<li>Portfolio</li>
-  		<li>Contact</li>
-  	</ul>
+    <!-- HTML for Header Menu -->
+    <div class="navbar">
+      <h1>Mateo Vargas</h1>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html" target="_blank">About</a>
+    </div>
   </header>
   <body>
     <div class="container">
-    <!-- HTML for Porfolio ontainer -->
-        <div class="portfolioContainer">
+    <!-- HTML for Porfolio container -->
+        <div class="bioContainer">
           <h1>Portfolio</h1>
-          <img src="" alt="Hangman"></img>
-          <img src="" alt="RPG Game"></img>
-          <img src="" alt="Trivia Game"></img>
-          <img src="" alt="Rutgers Info Wallet"></img>
-          <img src="" alt="Rock Paper Scissors"></img>
+          <div class="image">
+            <img class="portfolioImg" src="assets/images/giraffe.jpg" alt="Hangman"></img>
+            <!--<h3>Hangman</h3>-->
+          </div>
+          <div class="image">
+            <img class="portfolioImg" src="assets/images/bike.jpg" alt="RPG Game"></img>
+            <!--<h3>RPG Game</h3>-->
+          </div>
+          <div class="image">
+            <img class="portfolioImg" src="assets/images/people.jpg" alt="Trivia Game"></img>
+            <!--<h3>Trivia Game</h3>-->
+          </div>
+          <div class="image">
+            <img class="portfolioImg" src="assets/images/bread.jpg" alt="Rutgers Info Wallet"></img>
+            <!--<h3>Rutgers Info Wallet</h3>-->
+          </div>
+          <div class="image">
+            <img class="portfolioImg" src="assets/images/computer.jpg" alt="Rock Paper Scissors"></img>
+            <!--<h3>Rock Paper Scissors</h3>-->
+          </div>
         </div>
+
+        <!-- HTML for Social sidebar -->
         <div class="socialContainer">
-          <h2>Connect with Me</h2>
+          <h1>Connect with Me</h1>
           <ul>
             <li><a href="https://github.com/mateovargas" target="_blank">
               <img src="assets/images/github.png" alt="Github"></img>
@@ -44,5 +62,5 @@
         </div>
       </div>
     </body>
-  <footer>Copyright 2017 Mateo Vargas</footer>
+  <footer><p>Copyright 2017 Mateo Vargas</p></footer>
 </html>
